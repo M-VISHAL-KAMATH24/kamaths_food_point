@@ -9,6 +9,7 @@ import Hero from './components/Hero';
 import CardSection from './components/CardSection';
 import Info from './components/Info';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 const App = () => {
   const titleRef = useRef(null);
@@ -36,6 +37,7 @@ const App = () => {
       <CardSection/>
       <Info/>
       <Contact/>
+      <Footer/>
       
         {/* Add more content or sections here as needed */}
     </div>
