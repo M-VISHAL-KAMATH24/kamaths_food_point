@@ -1,30 +1,29 @@
-// Navbar.jsx
 import React from 'react';
 
 const Navbar = () => {
   return (
-    <nav className="bg-white shadow-md py-4 px-6 flex justify-between items-center">
-      <div className="text-2xl font-bold text-gray-800">
+    <nav className="bg-gradient-to-r from-amber-500 to-amber-300 shadow-md py-4 px-6 flex justify-between items-center">
+      <div className="text-2xl font-bold text-white">
         Kamath Food Point
       </div>
       <ul className="flex space-x-6">
         <li>
-          <a href="/" className="text-gray-600 hover:text-gray-900 transition-colors">
+          <a href="/" className="text-white hover:text-amber-100 transition-colors">
             Home
           </a>
         </li>
         <li>
-          <a href="/about" className="text-gray-600 hover:text-gray-900 transition-colors">
+          <a href="/about" className="text-white hover:text-amber-100 transition-colors">
             About Us
           </a>
         </li>
         <li>
-          <a href="/services" className="text-gray-600 hover:text-gray-900 transition-colors">
+          <a href="/services" className="text-white hover:text-amber-100 transition-colors">
             Services
           </a>
         </li>
         <li>
-          <a href="/contact" className="text-gray-600 hover:text-gray-900 transition-colors">
+          <a href="/contact" className="text-white hover:text-amber-100 transition-colors">
             Contact
           </a>
         </li>
