@@ -5,6 +5,10 @@ gsap.registerPlugin(ScrollTrigger, SplitText);
 
 // Assuming you have a Navbar component - import it here
 import Navbar from './components/Navbar'; // Adjust the path as needed
+import Hero from './components/Hero';
+import CardSection from './components/CardSection';
+import Info from './components/Info';
+import Contact from './components/Contact';
 
 const App = () => {
   const titleRef = useRef(null);
@@ -28,12 +32,12 @@ const App = () => {
   return (
     <div>
       <Navbar />
-      <div className="container mx-auto py-10 text-center">
-        <h1 ref={titleRef} className="text-4xl font-bold text-gray-800">
-          Welcome to the Website
-        </h1>
+      <Hero/>
+      <CardSection/>
+      <Info/>
+      <Contact/>
+      
         {/* Add more content or sections here as needed */}
-      </div>
     </div>
   );
 };
