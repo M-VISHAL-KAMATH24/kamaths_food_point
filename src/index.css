@@ -5,3 +5,8 @@
 @tailwind utilities;
 
 
+.video-blend {
+  mix-blend-mode: screen;
+  background: none; /* Ensures no additional bg */
+}
+

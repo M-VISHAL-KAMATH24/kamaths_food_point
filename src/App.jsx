@@ -11,6 +11,7 @@ import Info from './components/Info';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Profile from './components/Profile';
+import SubHero from './components/SubHero';
 
 const App = () => {
   const titleRef = useRef(null);
@@ -38,6 +39,7 @@ const App = () => {
       <CardSection/>
       <Info/>
       <Profile/>
+      <SubHero/>
       <Contact/>
       <Footer/>
       
