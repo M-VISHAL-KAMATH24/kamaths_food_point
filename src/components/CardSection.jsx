@@ -17,7 +17,7 @@ const cardsData = [
     description: "Relish the flavors of India with our mouthwatering street snacks: pani puri, bhel & more.",
   },
   {
-    image: "images/juice.jpg",
+    image: "images/freshjuice.jpg",
     title: "Fresh Juices",
     description: "Enjoy refreshing, healthy juices made from handpicked fresh fruits.",
   }
